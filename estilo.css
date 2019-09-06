@@ -1,0 +1,90 @@
+body{
+    
+    background-image: url(img/map.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -12rem;
+
+    
+}
+
+.HUD{
+
+  background: rgb(119, 119, 119);
+  padding: 2rem 5rem 3rem 5rem;
+  margin: -1rem -1rem 5rem -1rem;
+  font-size: 1.2rem;
+}
+
+#blanka{
+  position: absolute;
+  transform: scaleX(-1);
+  left:48%;
+  top: 50%;
+}
+
+#gilu{
+  position: absolute;
+  left: 30%;
+  top:50%;
+}
+
+#enemiePlayer{
+  position: absolute;
+  background: rgb(255, 0, 0);
+  width: 30rem;
+  height: 1.5rem;
+  color: rgb(255, 220, 21);
+  left: 60%;
+}
+
+#myPlayer{
+  position: absolute;
+  background: rgb(255, 0, 0);
+  width: 30rem;
+  height: 1.5rem;
+  color: rgb(255, 220, 21);
+}
+
+
+.botonGolpe {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(212, 9, 9);
+    color: black;
+    font-size: 36px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid rgb(110, 1, 1);
+    font-family: 'Anton', sans-serif;
+  }
+  .botones .botonGolpe:hover {
+    background-color: rgb(151, 3, 3);
+  }
+
+  .botonGolpeEnemie{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(212, 9, 9);
+    color: black;
+    font-size: 36px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid rgb(110, 1, 1);
+    font-family: 'Anton', sans-serif;
+  }
+  .botones .botonGolpeEnemie:hover {
+    background-color: rgb(151, 3, 3);
+  }
+
+.botones{
+    background: black;
+}
